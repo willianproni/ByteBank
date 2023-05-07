@@ -19,7 +19,7 @@ export default function Principal({ saldo }) {
   return (
     <section className={estilos.container}>
       <div className={estilos.detalhe__superior} />
-      <h1 className={estilos.titulo}>Olá, Joana :)!</h1>
+      <h1 className={estilos.titulo}>Olá, Willian :)!</h1>
       <p className={estilos.data}>{`${
         diasDaSemana[hoje.getDay()]
       }, ${hoje.toLocaleDateString('pt-BR')}`}</p>
